@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Position</title>
+  <style media="screen">
+    body {
+      height: 100%
+    }
+
+    .thumbsBox {
+      width: 50%;
+      height: 50%;
+    }
+
+    .pTop {
+      position: relative;
+      top: 0px;
+      border: 5px solid black;
+    }
+
+    .pBot {
+      position: relative;
+      bottom: 0px;
+      border: 5px solid black;
+    }
+
+    .pLeft {
+      position: relative;
+      left: 0px;
+    }
+
+    .pRight {
+      position: relative;
+      right: 0px;
+    }
+
+    #tUp {
+      background-color: #99ff99
+    }
+
+    #tDown {
+      background-color: #ffbbbb
+    }
+
+    #tWiggle {
+      background-color: #bbffff
+    }
+
+    #tOops {
+      background-color: #ffffbb
+    }
+
+    #tUp:hover {
+      background-color: #bfbfbf;
+    }
+
+    #tDown:hover {
+      background-color: #bfbfbf
+    }
+
+    #tWiggle:hover {
+      background-color: #bfbfbf
+    }
+
+    #tOops:hover {
+      background-color: #bfbfbf
+    }
+    div {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="tUp" class="thumbsBox pTop pLeft">
+    <a href="http://192.168.10.69:420/tutd?thumb=up">Up</a>
+  </div>
+  <div id="tWiggle" class="thumbsBox pTop pRight">
+    <a href="http://192.168.10.69:420/tutd?thumb=wiggle">Wiggle</a>
+  </div>
+  <div id="tDown" class="thumbsBox pBot pLeft">
+    <a href="http://192.168.10.69:420/tutd?thumb=down">Down</a>
+  </div>
+  <div id="tOops" class="thumbsBox pBot pRight">
+    <a href="http://192.168.10.69:420/tutd?thumb=oops">Remove</a>
+  </div>
+</body>
+
+</html>
